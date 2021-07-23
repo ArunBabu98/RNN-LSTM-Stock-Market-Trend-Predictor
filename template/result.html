@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor>
+
+{% block content %}
+    This is {{result}}
+    {{response}}
+
+<form action = "sentiment">
+Enter the name of the company: <input type="text" name="company" align="center">
+<input type = "submit" value = "Submit" />
+</form>
+{% endblock %}
+</body>
+</html>

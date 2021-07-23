@@ -1,0 +1,21 @@
+circle {
+  fill: steelblue;
+}
+
+.line-path {
+  fill: none;
+  stroke: maroon;
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+
+g   {
+
+font-size: 14px;
+
+}
+
+.tick line {
+  stroke: #C0C0BB;
+}
+
